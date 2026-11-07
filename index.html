@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arfan | Personal Portfolio</title>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #080d18;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #080d18;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #00aaff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        section {
+            padding: 90px 10%;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 7vw, 65px);
+        }
+
+        .blue {
+            color: #00aaff;
+        }
+
+        p {
+            color: #aab4c5;
+            line-height: 1.8;
+            max-width: 650px;
+            margin-top: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 25px;
+            background: #008cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            width: fit-content;
+        }
+
+        .card {
+            background: #111b2d;
+            padding: 25px;
+            margin-top: 20px;
+            border: 1px solid #24344e;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #8492a8;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>ARFAN.</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <p class="blue">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hello, I'm <span class="blue">Arfan.</span></h1>
+    <h2>Technology Enthusiast & Future IT Professional</h2>
+    <p>
+        I am passionate about technology, programming,
+        cybersecurity and exploring new digital possibilities.
+        Welcome to my personal portfolio.
+    </p>
+    <a href="#projects" class="button">Explore My Work →</a>
+</section>
+
+<section id="about">
+    <h1>About Me</h1>
+    <p>
+        I am an aspiring technology professional who enjoys
+        learning new skills, exploring computer systems and
+        developing creative solutions through technology.
+    </p>
+</section>
+
+<section id="skills">
+    <h1>My Skills</h1>
+    <div class="card">
+        <h3>Technical Skills</h3>
+        <p>HTML • CSS • JavaScript • Computer Networking</p>
+    </div>
+    <div class="card">
+        <h3>Areas of Interest</h3>
+        <p>Cybersecurity • Web Development • Information Technology</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h1>My Projects</h1>
+    <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p>A personal website showcasing my skills and projects.</p>
+    </div>
+    <div class="card">
+        <h3>Future Project</h3>
+        <p>More projects and achievements will be added here.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <p>Interested in connecting or collaborating?</p>
+    <a href="mailto:YOUR-EMAIL@example.com" class="button">
+        Send Me an Email
+    </a>
+</section>
+
+<footer>
+    © 2026 Arfan. All Rights Reserved.
+</footer>
+
+</body>
+</html>
